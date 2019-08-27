@@ -40,7 +40,23 @@ namespace DoAn_LTWNC
             Con.Dispose();
 
         }
-        public
+        public void Update_Dalete_Insert(string s)
+        {
+            SqlCommand com = new SqlCommand(s, Con);
+            com.ExecuteNonQuery();
+        }
+        public int GetCount(string s)
+        {
+            SqlCommand com = new SqlCommand(s, Con);
+            return (int)com.ExecuteScalar();
+        }
+        public DataTable DataTable(string s)
+        {
+            SqlDataAdapter adap = new SqlDataAdapter(s, Con);
+            DataTable table = new DataTable();
+            adap.Fill(table);
+            return table;
+        }
 
     }
 }
