@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAn_LTWNC
 {
-    public partial class Form1 : Form
+    public partial class fromlogin : Form
     {
-        public Form1()
+        public fromlogin()
         {
             InitializeComponent();
         }

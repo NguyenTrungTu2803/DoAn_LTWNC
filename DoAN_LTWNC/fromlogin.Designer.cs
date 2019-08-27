@@ -1,6 +1,6 @@
 ﻿namespace DoAn_LTWNC
 {
-    partial class Form1
+    partial class fromlogin
     {
         /// <summary>
         /// Required designer variable.
