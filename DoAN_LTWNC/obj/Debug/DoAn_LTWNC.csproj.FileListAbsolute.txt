@@ -1,0 +1,16 @@
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\DoAn_LTWNC.exe.config
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\DoAn_LTWNC.exe
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\DoAn_LTWNC.pdb
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\control_user_pass.dll
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\control_user_pass_email.dll
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\control_user_pass.pdb
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\control_user_pass_email.pdb
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.csprojAssemblyReference.cache
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.fromlogin.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.fromMain.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.Properties.Resources.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.csproj.GenerateResource.cache
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.csproj.CoreCompileInputs.cache
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.csproj.CopyComplete
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.exe
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.pdb

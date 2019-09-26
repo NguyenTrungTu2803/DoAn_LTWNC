@@ -1,0 +1,12 @@
+F:\Github\DoAn_LTWNC\control_user_pass_email\bin\Debug\control_user_pass_email.dll
+F:\Github\DoAn_LTWNC\control_user_pass_email\bin\Debug\control_user_pass_email.pdb
+F:\Github\DoAn_LTWNC\control_user_pass_email\bin\Debug\control_user_pass.dll
+F:\Github\DoAn_LTWNC\control_user_pass_email\bin\Debug\control_user_pass.pdb
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.csprojAssemblyReference.cache
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.Properties.Resources.resources
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.user_pass_email.resources
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.csproj.GenerateResource.cache
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.csproj.CoreCompileInputs.cache
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.csproj.CopyComplete
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.dll
+F:\Github\DoAn_LTWNC\control_user_pass_email\obj\Debug\control_user_pass_email.pdb

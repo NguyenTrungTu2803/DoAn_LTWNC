@@ -16,5 +16,25 @@ namespace DoAn_LTWNC
         {
             InitializeComponent();
         }
+
+        private void Fromlogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void User_pass_email1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

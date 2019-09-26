@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -59,6 +60,7 @@
     <Compile Include="fromMain.Designer.cs">
       <DependentUpon>fromMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="KTKN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fromlogin.resx">
@@ -88,6 +90,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\control_user_pass\control_user_pass.csproj">
+      <Project>{bcd98e59-07d9-4a99-a90f-03ab23dcca13}</Project>
+      <Name>control_user_pass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\control_user_pass_email\control_user_pass_email.csproj">
+      <Project>{b67188b9-c568-4714-b1ce-cfa7706678d4}</Project>
+      <Name>control_user_pass_email</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

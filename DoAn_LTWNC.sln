@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoAn_LTWNC", "DoAn_LTWNC\DoAn_LTWNC.csproj", "{D53DF332-6D6C-406F-8DC7-E824D364CB96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "control_user_pass", "control_user_pass\control_user_pass.csproj", "{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "control_user_pass_email", "control_user_pass_email\control_user_pass_email.csproj", "{B67188B9-C568-4714-B1CE-CFA7706678D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D53DF332-6D6C-406F-8DC7-E824D364CB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53DF332-6D6C-406F-8DC7-E824D364CB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53DF332-6D6C-406F-8DC7-E824D364CB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67188B9-C568-4714-B1CE-CFA7706678D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67188B9-C568-4714-B1CE-CFA7706678D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67188B9-C568-4714-B1CE-CFA7706678D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67188B9-C568-4714-B1CE-CFA7706678D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
