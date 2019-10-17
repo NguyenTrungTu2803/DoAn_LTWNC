@@ -19,7 +19,7 @@ namespace DoAn_LTWNC
 
         private void Fromlogin_Load(object sender, EventArgs e)
         {
-
+             
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -29,10 +29,10 @@ namespace DoAn_LTWNC
 
         private void User_pass_email1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
-        private void BtnDangNhap_Click(object sender, EventArgs e)
+        private void User_pass1_Load(object sender, EventArgs e)
         {
 
         }

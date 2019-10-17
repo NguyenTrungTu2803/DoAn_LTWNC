@@ -1,8 +1,11 @@
+F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.user_pass.resources
+F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.csproj.GenerateResource.Cache
+F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.Properties.Resources.resources
+F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\control_user_pass.dll.config
 F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\control_user_pass.dll
 F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\control_user_pass.pdb
-F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.Properties.Resources.resources
-F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.csproj.GenerateResource.cache
-F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.csproj.CoreCompileInputs.cache
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.dll
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.pdb
-F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.user_pass.resources
+F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\ADO\QL_NhanVien_DB.mdf
+F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\ADO\QL_NhanVien_DB_log.ldf
+F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.csprojResolveAssemblyReference.cache

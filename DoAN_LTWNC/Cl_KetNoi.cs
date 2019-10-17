@@ -22,9 +22,9 @@ namespace DoAn_LTWNC
             con = null;
             Strconnetion = "@" +strcon;
         }
-        public SqlConnection Con { get { return con; } set => con = value; }
+        public SqlConnection Con { get { return con; } set {con = value; }}
 
-        public string Strconnetion { get => Strcon; set => Strcon = value; }
+        public string Strconnetion { get { return Strcon; } set { Strcon = value; } }
         public void OpenConnection()
         {
             con = new SqlConnection();
