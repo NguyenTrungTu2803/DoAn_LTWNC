@@ -19,22 +19,21 @@ namespace DoAn_LTWNC
 
         private void Fromlogin_Load(object sender, EventArgs e)
         {
-             
+               
         }
 
         private void Label1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        private void User_pass_email1_Load(object sender, EventArgs e)
+        fromMain from = new fromMain();
+        private void user_pass1_Click(object sender, EventArgs e)
         {
-           
-        }
-
-        private void User_pass1_Load(object sender, EventArgs e)
-        {
-
+            if (user_pass1.h == 1)
+            {
+                MessageBox.Show("");
+                from.Show();
+            }
         }
     }
 }

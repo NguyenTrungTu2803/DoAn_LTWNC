@@ -58,15 +58,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ADO\QL_NhanVienDS.cs">
-      <DependentUpon>QL_NhanVienDS.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ADO\QL_NhanVienDS.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QL_NhanVienDS.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ChangeConnec.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -98,17 +89,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ADO\QL_NhanVienDS.xsc">
-      <DependentUpon>QL_NhanVienDS.xsd</DependentUpon>
-    </None>
-    <None Include="ADO\QL_NhanVienDS.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QL_NhanVienDS.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ADO\QL_NhanVienDS.xss">
-      <DependentUpon>QL_NhanVienDS.xsd</DependentUpon>
-    </None>
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
@@ -150,13 +130,7 @@
     <None Include="Resources\phone-icon2.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ADO\QL_NhanVien_DB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ADO\QL_NhanVien_DB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>QL_NhanVien_DB.mdf</DependentUpon>
-    </Content>
+    <Folder Include="ADO\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

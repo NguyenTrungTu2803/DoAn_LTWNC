@@ -26,32 +26,22 @@ namespace control_user_pass.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\\Ql_NV.sdf")]
-        public string Ql_NVConnectionString {
-            get {
-                return ((string)(this["Ql_NVConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-L3TGD7A\\TRUNGTU;Initial Catalog=QL_VeXeKhach;Integrated Secur" +
-            "ity=True")]
-        public string QL_VeXeKhachConnectionString {
-            get {
-                return ((string)(this["QL_VeXeKhachConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-L3TGD7A\\TRUNGTU;Initial Catalog=QL_NhanVien;Integrated Securi" +
             "ty=True")]
         public string QL_NhanVien {
             get {
                 return ((string)(this["QL_NhanVien"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-L3TGD7A\\TRUNGTU;Initial Catalog=QL_NguoiDung;Integrated Secur" +
+            "ity=True")]
+        public string Ql_NguoiDung {
+            get {
+                return ((string)(this["Ql_NguoiDung"]));
             }
         }
     }

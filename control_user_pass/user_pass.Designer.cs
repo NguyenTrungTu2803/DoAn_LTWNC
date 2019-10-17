@@ -60,7 +60,7 @@
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(300, 27);
             this.txtuser.TabIndex = 2;
-            this.txtuser.Text = "Username";
+            this.txtuser.Text = "Phone";
             this.txtuser.Click += new System.EventHandler(this.Txtuser_Click);
             // 
             // panel1

@@ -66,6 +66,7 @@
             this.user_pass1.Name = "user_pass1";
             this.user_pass1.Size = new System.Drawing.Size(365, 325);
             this.user_pass1.TabIndex = 4;
+            this.user_pass1.Click += new System.EventHandler(this.user_pass1_Click);
             // 
             // fromlogin
             // 

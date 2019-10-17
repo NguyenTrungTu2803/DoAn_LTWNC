@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace control_user_pass
 {
     public partial class user_pass: UserControl
@@ -22,13 +23,13 @@ namespace control_user_pass
         //
         //
         //
-
+        ChangeConnec change = new ChangeConnec();
+        ChangeConnec changeND = new ChangeConnec(@Properties.Settings.Default.Ql_NguoiDung.ToString());
         private void UserControl1_Load(object sender, EventArgs e)
         {
            
         }
-        private string s;
-        SqlConnection connec = new SqlConnection(Properties.Settings.Default.QL_NhanVien);
+
         private void Txtuser_Click(object sender, EventArgs e)
         {
             txtuser.Clear();
@@ -89,9 +90,23 @@ namespace control_user_pass
                 MessageBox.Show("Nhập thông tin đầy đủ!", "Thông báo", MessageBoxButtons.OK);
             else
             {
-                if (radHanhKhach.Checked) { }
+                if (radHanhKhach.Checked) {
+                    changeND.OpenConnection();
+                    int k = changeND.GetCount("select count(SDT) From NguoiDung where SDT = '" + txtuser.Text + "' and MatKhau = '" + txtPass.Text + "' and Email = '" + txtemail.Text + "'");
+                    changeND.CloseConnection();
+                    if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else {
+                        q = 1;
+                    }
+                }
                 if (radNV.Checked) {
-                    
+                    change.OpenConnection();
+                    int k = change.GetCount("select count(Id) From ACCOUNTDAILY where SDT = '" + txtuser.Text + "' and password = '"+txtPass.Text+"' and Email = '"+txtemail.Text+"'");
+                    change.CloseConnection();
+                    if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else {
+                        h = 1;
+                    }
                 }
             }
             
@@ -106,6 +121,7 @@ namespace control_user_pass
         {
 
         }
-        public RadioButton rad;
+        public int q = 0;
+        public int h = 0;
     }
 }
