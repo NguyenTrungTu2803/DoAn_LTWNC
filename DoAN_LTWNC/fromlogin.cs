@@ -26,14 +26,10 @@ namespace DoAn_LTWNC
         {
             this.Close();
         }
-        fromMain from = new fromMain();
         private void user_pass1_Click(object sender, EventArgs e)
         {
-            if (user_pass1.h == 1)
-            {
-                MessageBox.Show("");
-                from.Show();
-            }
+
         }
+
     }
 }

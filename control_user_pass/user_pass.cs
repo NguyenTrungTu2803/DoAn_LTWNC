@@ -9,6 +9,8 @@ using System.Configuration;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DoAn_LTWNC;
+using System.Threading;
 
 
 namespace control_user_pass
@@ -96,17 +98,23 @@ namespace control_user_pass
                     changeND.CloseConnection();
                     if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     else {
-                        q = 1;
+                        
                     }
                 }
                 if (radNV.Checked) {
-                    change.OpenConnection();
-                    int k = change.GetCount("select count(Id) From ACCOUNTDAILY where SDT = '" + txtuser.Text + "' and password = '"+txtPass.Text+"' and Email = '"+txtemail.Text+"'");
-                    change.CloseConnection();
-                    if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    else {
-                        h = 1;
-                    }
+                    //change.OpenConnection();
+                    //int k = change.GetCount("select count(Id) From ACCOUNTDAILY where SDT = '" + txtuser.Text + "' and password = '"+txtPass.Text+"' and Email = '"+txtemail.Text+"'");
+                    //change.CloseConnection();
+                    //if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    //else {
+                        fromMain fr = new fromMain(); 
+                        fr.Show();
+                        //fromlogin fr1 = new fromlogin(); fr1.Show();// fr1.Close();
+                        //fr.Close();
+                        //fr1.Close();
+                        //fr1.Enabled = false;
+                        
+                    //}
                 }
             }
             

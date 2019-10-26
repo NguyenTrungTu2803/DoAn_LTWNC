@@ -94,6 +94,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private control_user_pass.user_pass user_pass1;
+
     }
 }
 

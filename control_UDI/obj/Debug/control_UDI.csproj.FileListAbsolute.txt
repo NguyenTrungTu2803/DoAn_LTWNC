@@ -1,0 +1,8 @@
+F:\Github\DoAn_LTWNC\control_UDI\bin\Debug\control_UDI.dll
+F:\Github\DoAn_LTWNC\control_UDI\bin\Debug\control_UDI.pdb
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_UDI.csprojResolveAssemblyReference.cache
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_user_pass.update_delete_insert.resources
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_UDI.csproj.GenerateResource.Cache
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_UDI.dll.licenses
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_UDI.dll
+F:\Github\DoAn_LTWNC\control_UDI\obj\Debug\control_UDI.pdb

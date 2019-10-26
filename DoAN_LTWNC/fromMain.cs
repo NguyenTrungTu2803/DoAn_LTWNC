@@ -19,7 +19,8 @@ namespace DoAn_LTWNC
 
         private void FromMain_Load(object sender, EventArgs e)
         {
-
+            fromlogin fr1 = new fromlogin();
+            fr1.Close();
         }
     }
 }
