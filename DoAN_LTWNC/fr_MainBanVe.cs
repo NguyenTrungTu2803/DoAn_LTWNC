@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BANVEXEKHACHH
+namespace DoAn_LTWNC
 {
-    public partial class fr_ql_nhanvien : Form
+    public partial class fr_MainBanVe : Form
     {
-        public fr_ql_nhanvien()
+        public fr_MainBanVe()
         {
             InitializeComponent();
-        }
-
-        private void btnItem_banve_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
