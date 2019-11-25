@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace BANVEXEKHACHH
 {
-    public partial class fr_ql_nhanvien : Form
+    public partial class controlnhanvien : UserControl
     {
-        public fr_ql_nhanvien()
+        public controlnhanvien()
         {
             InitializeComponent();
-        }
-
-        private void btnItem_banve_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

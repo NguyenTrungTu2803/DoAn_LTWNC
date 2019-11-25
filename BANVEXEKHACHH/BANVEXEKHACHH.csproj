@@ -102,43 +102,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fr_banve.cs">
-      <SubType>Form</SubType>
+    <Compile Include="controldoanhso.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="fr_banve.Designer.cs">
-      <DependentUpon>fr_banve.cs</DependentUpon>
+    <Compile Include="controldoanhso.Designer.cs">
+      <DependentUpon>controldoanhso.cs</DependentUpon>
     </Compile>
-    <Compile Include="fr_ql_nhanvien.cs">
-      <SubType>Form</SubType>
+    <Compile Include="controldontrakhach.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="fr_ql_nhanvien.Designer.cs">
-      <DependentUpon>fr_ql_nhanvien.cs</DependentUpon>
+    <Compile Include="controldontrakhach.Designer.cs">
+      <DependentUpon>controldontrakhach.cs</DependentUpon>
     </Compile>
-    <Compile Include="fr_tk_doanhso.cs">
-      <SubType>Form</SubType>
+    <Compile Include="controlnhanvien.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="fr_tk_doanhso.Designer.cs">
-      <DependentUpon>fr_tk_doanhso.cs</DependentUpon>
+    <Compile Include="controlnhanvien.Designer.cs">
+      <DependentUpon>controlnhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="fr_tk_dontrakhach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fr_tk_dontrakhach.Designer.cs">
-      <DependentUpon>fr_tk_dontrakhach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fr_banve.resx">
-      <DependentUpon>fr_banve.cs</DependentUpon>
+    <Compile Include="controlbanve.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controlbanve.Designer.cs">
+      <DependentUpon>controlbanve.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="controldoanhso.resx">
+      <DependentUpon>controldoanhso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fr_ql_nhanvien.resx">
-      <DependentUpon>fr_ql_nhanvien.cs</DependentUpon>
+    <EmbeddedResource Include="controldontrakhach.resx">
+      <DependentUpon>controldontrakhach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fr_tk_doanhso.resx">
-      <DependentUpon>fr_tk_doanhso.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fr_tk_dontrakhach.resx">
-      <DependentUpon>fr_tk_dontrakhach.cs</DependentUpon>
+    <EmbeddedResource Include="controlnhanvien.resx">
+      <DependentUpon>controlnhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +146,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="controlbanve.resx">
+      <DependentUpon>controlbanve.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -159,9 +158,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="hinh\button_ok.png" />

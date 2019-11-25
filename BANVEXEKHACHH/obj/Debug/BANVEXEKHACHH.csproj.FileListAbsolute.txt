@@ -22,3 +22,14 @@ C:\Users\HP\Downloads\BANVEXEKHACHH\BANVEXEKHACHH\bin\Debug\BANVEXEKHACHH.exe
 C:\Users\HP\Downloads\BANVEXEKHACHH\BANVEXEKHACHH\bin\Debug\BANVEXEKHACHH.pdb
 C:\Users\HP\Downloads\BANVEXEKHACHH\BANVEXEKHACHH\bin\Debug\NgenInstaller.dll
 C:\Users\HP\Downloads\BANVEXEKHACHH\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.csprojResolveAssemblyReference.cache
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\bin\Debug\BANVEXEKHACHH.exe
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\bin\Debug\BANVEXEKHACHH.pdb
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\bin\Debug\NgenInstaller.dll
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.Properties.Resources.resources
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.csproj.GenerateResource.Cache
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.exe
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.pdb
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.controldoanhso.resources
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.controldontrakhach.resources
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.controlnhanvien.resources
+F:\Github\DoAn_LTWNC\BANVEXEKHACHH\obj\Debug\BANVEXEKHACHH.controlbanve.resources

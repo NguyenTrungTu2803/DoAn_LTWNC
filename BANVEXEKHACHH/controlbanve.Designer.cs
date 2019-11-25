@@ -1,13 +1,13 @@
 ﻿namespace BANVEXEKHACHH
 {
-    partial class fr_banve
+    partial class controlbanve
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,16 +20,16 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Component Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fr_banve));
-            this.cb_tatcaTuyen = new System.Windows.Forms.ComboBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(controlbanve));
+            this.pn_danhmucQL = new System.Windows.Forms.Panel();
             this.pn_chitietDanhmucQL = new System.Windows.Forms.Panel();
             this.navbar_danhmucql = new DevComponents.DotNetBar.NavigationBar();
             this.btnItem_banve = new DevComponents.DotNetBar.ButtonItem();
@@ -49,16 +49,7 @@
             this.btnItem_tkTrongngay = new DevComponents.DotNetBar.ButtonItem();
             this.btnItem_tkBanve = new DevComponents.DotNetBar.ButtonItem();
             this.btnItem_tkTheoNV = new DevComponents.DotNetBar.ButtonItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pn_nhapXuat = new DevComponents.DotNetBar.PanelEx();
-            this.btn_thoat = new DevComponents.DotNetBar.ButtonX();
-            this.btn_dangnhap = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.txt_tenKH = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.btn_tenQLdanhmuc = new DevComponents.DotNetBar.ButtonX();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -71,6 +62,8 @@
             this.txt_soluong = new System.Windows.Forms.TextBox();
             this.txt_diachiKH = new System.Windows.Forms.TextBox();
             this.txt_sdtKH = new System.Windows.Forms.TextBox();
+            this.txt_tenKH = new System.Windows.Forms.TextBox();
+            this.cb_tatcaTuyen = new System.Windows.Forms.ComboBox();
             this.lbl_banve = new DevComponents.DotNetBar.LabelX();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btn_xuatHD = new DevComponents.DotNetBar.ButtonX();
@@ -82,34 +75,40 @@
             this.cb_chonLoaiKH = new System.Windows.Forms.ComboBox();
             this.cb_gioKH = new System.Windows.Forms.ComboBox();
             this.cb_chonKH = new System.Windows.Forms.ComboBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pn_nhapXuat = new DevComponents.DotNetBar.PanelEx();
+            this.btn_thoat = new DevComponents.DotNetBar.ButtonX();
+            this.btn_dangnhap = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pn_danhmucQL = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.pn_danhmucQL.SuspendLayout();
             this.pn_chitietDanhmucQL.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navbar_danhmucql)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.pn_nhapXuat.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.pn_nhapXuat.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.pn_danhmucQL.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // cb_tatcaTuyen
+            // pn_danhmucQL
             // 
-            this.cb_tatcaTuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_tatcaTuyen.ForeColor = System.Drawing.Color.DimGray;
-            this.cb_tatcaTuyen.FormattingEnabled = true;
-            this.cb_tatcaTuyen.Location = new System.Drawing.Point(33, 41);
-            this.cb_tatcaTuyen.Margin = new System.Windows.Forms.Padding(5);
-            this.cb_tatcaTuyen.Name = "cb_tatcaTuyen";
-            this.cb_tatcaTuyen.Size = new System.Drawing.Size(204, 26);
-            this.cb_tatcaTuyen.TabIndex = 36;
-            this.cb_tatcaTuyen.Text = "Tất cả tuyến";
+            this.pn_danhmucQL.Controls.Add(this.pn_chitietDanhmucQL);
+            this.pn_danhmucQL.Controls.Add(this.panel3);
+            this.pn_danhmucQL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pn_danhmucQL.Location = new System.Drawing.Point(4, 66);
+            this.pn_danhmucQL.Margin = new System.Windows.Forms.Padding(4);
+            this.pn_danhmucQL.Name = "pn_danhmucQL";
+            this.pn_danhmucQL.Size = new System.Drawing.Size(228, 493);
+            this.pn_danhmucQL.TabIndex = 2;
             // 
             // pn_chitietDanhmucQL
             // 
@@ -118,7 +117,7 @@
             this.pn_chitietDanhmucQL.Location = new System.Drawing.Point(0, 44);
             this.pn_chitietDanhmucQL.Margin = new System.Windows.Forms.Padding(4);
             this.pn_chitietDanhmucQL.Name = "pn_chitietDanhmucQL";
-            this.pn_chitietDanhmucQL.Size = new System.Drawing.Size(233, 515);
+            this.pn_chitietDanhmucQL.Size = new System.Drawing.Size(228, 449);
             this.pn_chitietDanhmucQL.TabIndex = 1;
             // 
             // navbar_danhmucql
@@ -140,7 +139,7 @@
             this.navbar_danhmucql.Location = new System.Drawing.Point(0, 0);
             this.navbar_danhmucql.Margin = new System.Windows.Forms.Padding(4);
             this.navbar_danhmucql.Name = "navbar_danhmucql";
-            this.navbar_danhmucql.Size = new System.Drawing.Size(233, 208);
+            this.navbar_danhmucql.Size = new System.Drawing.Size(228, 208);
             this.navbar_danhmucql.SplitterVisible = true;
             this.navbar_danhmucql.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.navbar_danhmucql.TabIndex = 8;
@@ -161,7 +160,6 @@
             this.btnItem_banve.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.comboBoxItem1});
             this.btnItem_banve.Text = "BÁN VÉ";
-            this.btnItem_banve.Click += new System.EventHandler(this.btnItem_banve_Click);
             // 
             // comboBoxItem1
             // 
@@ -284,137 +282,15 @@
             this.btnItem_tkTheoNV.Name = "btnItem_tkTheoNV";
             this.btnItem_tkTheoNV.Text = "Thống kê theo nhân viên";
             // 
-            // panel1
+            // panel3
             // 
-            this.panel1.Controls.Add(this.pn_nhapXuat);
-            this.panel1.Controls.Add(this.buttonX1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(245, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(980, 54);
-            this.panel1.TabIndex = 0;
-            // 
-            // pn_nhapXuat
-            // 
-            this.pn_nhapXuat.CanvasColor = System.Drawing.SystemColors.ButtonFace;
-            this.pn_nhapXuat.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.pn_nhapXuat.Controls.Add(this.btn_thoat);
-            this.pn_nhapXuat.Controls.Add(this.btn_dangnhap);
-            this.pn_nhapXuat.DisabledBackColor = System.Drawing.Color.Empty;
-            this.pn_nhapXuat.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pn_nhapXuat.Location = new System.Drawing.Point(828, 0);
-            this.pn_nhapXuat.Margin = new System.Windows.Forms.Padding(4);
-            this.pn_nhapXuat.Name = "pn_nhapXuat";
-            this.pn_nhapXuat.Size = new System.Drawing.Size(152, 54);
-            this.pn_nhapXuat.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.pn_nhapXuat.Style.BackColor1.Color = System.Drawing.Color.Blue;
-            this.pn_nhapXuat.Style.BackColor2.Color = System.Drawing.Color.Aqua;
-            this.pn_nhapXuat.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.pn_nhapXuat.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.pn_nhapXuat.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.pn_nhapXuat.Style.GradientAngle = 90;
-            this.pn_nhapXuat.TabIndex = 35;
-            // 
-            // btn_thoat
-            // 
-            this.btn_thoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btn_thoat.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btn_thoat.Image = global::BANVEXEKHACHH.Properties.Resources.tsbClose;
-            this.btn_thoat.Location = new System.Drawing.Point(84, 4);
-            this.btn_thoat.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_thoat.Name = "btn_thoat";
-            this.btn_thoat.Size = new System.Drawing.Size(60, 47);
-            this.btn_thoat.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_thoat.TabIndex = 40;
-            // 
-            // btn_dangnhap
-            // 
-            this.btn_dangnhap.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btn_dangnhap.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btn_dangnhap.Image = global::BANVEXEKHACHH.Properties.Resources.user1;
-            this.btn_dangnhap.Location = new System.Drawing.Point(4, 4);
-            this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_dangnhap.Name = "btn_dangnhap";
-            this.btn_dangnhap.Size = new System.Drawing.Size(61, 47);
-            this.btn_dangnhap.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btn_dangnhap.TabIndex = 39;
-            // 
-            // buttonX1
-            // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.buttonX1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX1.Location = new System.Drawing.Point(0, 0);
-            this.buttonX1.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(980, 54);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 0;
-            this.buttonX1.Text = "QUẢN LÝ BÁN VÉ";
-            this.buttonX1.TextColor = System.Drawing.Color.White;
-            // 
-            // labelX1
-            // 
-            this.labelX1.BackColor = System.Drawing.Color.CornflowerBlue;
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX1.FontBold = true;
-            this.labelX1.ForeColor = System.Drawing.Color.White;
-            this.labelX1.Location = new System.Drawing.Point(0, 0);
-            this.labelX1.Margin = new System.Windows.Forms.Padding(4);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.SingleLineColor = System.Drawing.Color.Transparent;
-            this.labelX1.Size = new System.Drawing.Size(980, 19);
-            this.labelX1.TabIndex = 2;
-            // 
-            // txt_tenKH
-            // 
-            this.txt_tenKH.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_tenKH.Location = new System.Drawing.Point(465, 124);
-            this.txt_tenKH.Margin = new System.Windows.Forms.Padding(4);
-            this.txt_tenKH.Name = "txt_tenKH";
-            this.txt_tenKH.Size = new System.Drawing.Size(224, 22);
-            this.txt_tenKH.TabIndex = 37;
-            this.txt_tenKH.Text = "Họ tên khách hàng";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.buttonX5);
-            this.panel2.Controls.Add(this.labelX1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(245, 633);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(980, 19);
-            this.panel2.TabIndex = 1;
-            // 
-            // buttonX5
-            // 
-            this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonX5.Location = new System.Drawing.Point(0, 0);
-            this.buttonX5.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonX5.Name = "buttonX5";
-            this.buttonX5.Size = new System.Drawing.Size(980, 19);
-            this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX5.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(4, 286);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(972, 269);
-            this.panel5.TabIndex = 1;
+            this.panel3.Controls.Add(this.btn_tenQLdanhmuc);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(228, 44);
+            this.panel3.TabIndex = 0;
             // 
             // btn_tenQLdanhmuc
             // 
@@ -426,7 +302,7 @@
             this.btn_tenQLdanhmuc.Location = new System.Drawing.Point(0, 0);
             this.btn_tenQLdanhmuc.Margin = new System.Windows.Forms.Padding(4);
             this.btn_tenQLdanhmuc.Name = "btn_tenQLdanhmuc";
-            this.btn_tenQLdanhmuc.Size = new System.Drawing.Size(233, 44);
+            this.btn_tenQLdanhmuc.Size = new System.Drawing.Size(228, 44);
             this.btn_tenQLdanhmuc.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_tenQLdanhmuc.TabIndex = 0;
             this.btn_tenQLdanhmuc.Text = "DANH MỤC QUẢN LÝ";
@@ -440,13 +316,13 @@
             this.tableLayoutPanel2.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel5, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(245, 66);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(240, 66);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 282F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(980, 559);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(959, 493);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // panel4
@@ -474,7 +350,7 @@
             this.panel4.Location = new System.Drawing.Point(4, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(972, 274);
+            this.panel4.Size = new System.Drawing.Size(951, 274);
             this.panel4.TabIndex = 0;
             // 
             // btn_trangchu
@@ -569,6 +445,28 @@
             this.txt_sdtKH.TabIndex = 38;
             this.txt_sdtKH.Text = "SDT khách hàng";
             // 
+            // txt_tenKH
+            // 
+            this.txt_tenKH.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_tenKH.Location = new System.Drawing.Point(465, 124);
+            this.txt_tenKH.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_tenKH.Name = "txt_tenKH";
+            this.txt_tenKH.Size = new System.Drawing.Size(224, 22);
+            this.txt_tenKH.TabIndex = 37;
+            this.txt_tenKH.Text = "Họ tên khách hàng";
+            // 
+            // cb_tatcaTuyen
+            // 
+            this.cb_tatcaTuyen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_tatcaTuyen.ForeColor = System.Drawing.Color.DimGray;
+            this.cb_tatcaTuyen.FormattingEnabled = true;
+            this.cb_tatcaTuyen.Location = new System.Drawing.Point(33, 41);
+            this.cb_tatcaTuyen.Margin = new System.Windows.Forms.Padding(5);
+            this.cb_tatcaTuyen.Name = "cb_tatcaTuyen";
+            this.cb_tatcaTuyen.Size = new System.Drawing.Size(204, 26);
+            this.cb_tatcaTuyen.TabIndex = 36;
+            this.cb_tatcaTuyen.Text = "Tất cả tuyến";
+            // 
             // lbl_banve
             // 
             // 
@@ -595,7 +493,7 @@
             this.panel6.Location = new System.Drawing.Point(0, 209);
             this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(972, 65);
+            this.panel6.Size = new System.Drawing.Size(951, 65);
             this.panel6.TabIndex = 0;
             // 
             // btn_xuatHD
@@ -713,15 +611,98 @@
             this.cb_chonKH.TabIndex = 27;
             this.cb_chonKH.Text = "Chọn khách hàng";
             // 
-            // panel3
+            // panel5
             // 
-            this.panel3.Controls.Add(this.btn_tenQLdanhmuc);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(233, 44);
-            this.panel3.TabIndex = 0;
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(4, 286);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(951, 203);
+            this.panel5.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pn_nhapXuat);
+            this.panel1.Controls.Add(this.buttonX1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(240, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(959, 54);
+            this.panel1.TabIndex = 0;
+            // 
+            // pn_nhapXuat
+            // 
+            this.pn_nhapXuat.CanvasColor = System.Drawing.SystemColors.ButtonFace;
+            this.pn_nhapXuat.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.pn_nhapXuat.Controls.Add(this.btn_thoat);
+            this.pn_nhapXuat.Controls.Add(this.btn_dangnhap);
+            this.pn_nhapXuat.DisabledBackColor = System.Drawing.Color.Empty;
+            this.pn_nhapXuat.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pn_nhapXuat.Location = new System.Drawing.Point(807, 0);
+            this.pn_nhapXuat.Margin = new System.Windows.Forms.Padding(4);
+            this.pn_nhapXuat.Name = "pn_nhapXuat";
+            this.pn_nhapXuat.Size = new System.Drawing.Size(152, 54);
+            this.pn_nhapXuat.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.pn_nhapXuat.Style.BackColor1.Color = System.Drawing.Color.Blue;
+            this.pn_nhapXuat.Style.BackColor2.Color = System.Drawing.Color.Aqua;
+            this.pn_nhapXuat.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.pn_nhapXuat.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.pn_nhapXuat.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.pn_nhapXuat.Style.GradientAngle = 90;
+            this.pn_nhapXuat.TabIndex = 35;
+            // 
+            // btn_thoat
+            // 
+            this.btn_thoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_thoat.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_thoat.Image = global::BANVEXEKHACHH.Properties.Resources.tsbClose;
+            this.btn_thoat.Location = new System.Drawing.Point(84, 4);
+            this.btn_thoat.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_thoat.Name = "btn_thoat";
+            this.btn_thoat.Size = new System.Drawing.Size(60, 47);
+            this.btn_thoat.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_thoat.TabIndex = 40;
+            // 
+            // btn_dangnhap
+            // 
+            this.btn_dangnhap.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btn_dangnhap.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btn_dangnhap.Image = global::BANVEXEKHACHH.Properties.Resources.user1;
+            this.btn_dangnhap.Location = new System.Drawing.Point(4, 4);
+            this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_dangnhap.Name = "btn_dangnhap";
+            this.btn_dangnhap.Size = new System.Drawing.Size(61, 47);
+            this.btn_dangnhap.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btn_dangnhap.TabIndex = 39;
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.buttonX1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX1.Location = new System.Drawing.Point(0, 0);
+            this.buttonX1.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(959, 54);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 0;
+            this.buttonX1.Text = "QUẢN LÝ BÁN VÉ";
+            this.buttonX1.TextColor = System.Drawing.Color.White;
+            // 
+            // buttonX5
+            // 
+            this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonX5.Location = new System.Drawing.Point(0, 0);
+            this.buttonX5.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonX5.Name = "buttonX5";
+            this.buttonX5.Size = new System.Drawing.Size(959, 16);
+            this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX5.TabIndex = 3;
             // 
             // tableLayoutPanel1
             // 
@@ -742,19 +723,37 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.59748F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.402516F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1229, 656);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1203, 587);
+            this.tableLayoutPanel1.TabIndex = 3;
             // 
-            // pn_danhmucQL
+            // panel2
             // 
-            this.pn_danhmucQL.Controls.Add(this.pn_chitietDanhmucQL);
-            this.pn_danhmucQL.Controls.Add(this.panel3);
-            this.pn_danhmucQL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pn_danhmucQL.Location = new System.Drawing.Point(4, 66);
-            this.pn_danhmucQL.Margin = new System.Windows.Forms.Padding(4);
-            this.pn_danhmucQL.Name = "pn_danhmucQL";
-            this.pn_danhmucQL.Size = new System.Drawing.Size(233, 559);
-            this.pn_danhmucQL.TabIndex = 2;
+            this.panel2.Controls.Add(this.buttonX5);
+            this.panel2.Controls.Add(this.labelX1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(240, 567);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(959, 16);
+            this.panel2.TabIndex = 1;
+            // 
+            // labelX1
+            // 
+            this.labelX1.BackColor = System.Drawing.Color.CornflowerBlue;
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX1.FontBold = true;
+            this.labelX1.ForeColor = System.Drawing.Color.White;
+            this.labelX1.Location = new System.Drawing.Point(0, 0);
+            this.labelX1.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.SingleLineColor = System.Drawing.Color.Transparent;
+            this.labelX1.Size = new System.Drawing.Size(959, 16);
+            this.labelX1.TabIndex = 2;
             // 
             // buttonX2
             // 
@@ -764,38 +763,36 @@
             this.buttonX2.Location = new System.Drawing.Point(4, 4);
             this.buttonX2.Margin = new System.Windows.Forms.Padding(4);
             this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(233, 54);
+            this.buttonX2.Size = new System.Drawing.Size(228, 54);
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX2.TabIndex = 4;
             // 
-            // fr_banve
+            // controlbanve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 656);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "fr_banve";
-            this.Text = "fr_banve";
+            this.Name = "controlbanve";
+            this.Size = new System.Drawing.Size(1203, 587);
+            this.pn_danhmucQL.ResumeLayout(false);
             this.pn_chitietDanhmucQL.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navbar_danhmucql)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.pn_nhapXuat.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel6.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.pn_nhapXuat.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.pn_danhmucQL.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cb_tatcaTuyen;
+        private System.Windows.Forms.Panel pn_danhmucQL;
         private System.Windows.Forms.Panel pn_chitietDanhmucQL;
         private DevComponents.DotNetBar.NavigationBar navbar_danhmucql;
         private DevComponents.DotNetBar.ButtonItem btnItem_banve;
@@ -815,25 +812,11 @@
         private DevComponents.DotNetBar.ButtonItem btnItem_tkTrongngay;
         private DevComponents.DotNetBar.ButtonItem btnItem_tkBanve;
         private DevComponents.DotNetBar.ButtonItem btnItem_tkTheoNV;
-        private System.Windows.Forms.Panel panel1;
-        private DevComponents.DotNetBar.PanelEx pn_nhapXuat;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
-        private DevComponents.DotNetBar.LabelX labelX1;
-        private System.Windows.Forms.TextBox txt_tenKH;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel3;
         private DevComponents.DotNetBar.ButtonX btn_tenQLdanhmuc;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel4;
-        private DevComponents.DotNetBar.LabelX lbl_banve;
-        private System.Windows.Forms.DateTimePicker date_ngayKH;
-        private System.Windows.Forms.ComboBox cb_tatcaXe;
-        private System.Windows.Forms.ComboBox cb_chonLoaiKH;
-        private System.Windows.Forms.ComboBox cb_gioKH;
-        private System.Windows.Forms.ComboBox cb_chonKH;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel pn_danhmucQL;
+        private System.Windows.Forms.Button btn_trangchu;
         private System.Windows.Forms.TextBox txt_ghichu;
         private System.Windows.Forms.ComboBox cb_trangthaiThanhtoan;
         private System.Windows.Forms.TextBox txt_diemden;
@@ -842,15 +825,30 @@
         private System.Windows.Forms.TextBox txt_soluong;
         private System.Windows.Forms.TextBox txt_diachiKH;
         private System.Windows.Forms.TextBox txt_sdtKH;
+        private System.Windows.Forms.TextBox txt_tenKH;
+        private System.Windows.Forms.ComboBox cb_tatcaTuyen;
+        private DevComponents.DotNetBar.LabelX lbl_banve;
         private System.Windows.Forms.Panel panel6;
+        private DevComponents.DotNetBar.ButtonX btn_xuatHD;
         private DevComponents.DotNetBar.ButtonX btn_huyve;
         private DevComponents.DotNetBar.ButtonX btn_tailai;
         private DevComponents.DotNetBar.ButtonX btn_banve;
-        private DevComponents.DotNetBar.ButtonX btn_xuatHD;
+        private System.Windows.Forms.DateTimePicker date_ngayKH;
+        private System.Windows.Forms.ComboBox cb_tatcaXe;
+        private System.Windows.Forms.ComboBox cb_chonLoaiKH;
+        private System.Windows.Forms.ComboBox cb_gioKH;
+        private System.Windows.Forms.ComboBox cb_chonKH;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel1;
+        private DevComponents.DotNetBar.PanelEx pn_nhapXuat;
         private DevComponents.DotNetBar.ButtonX btn_thoat;
         private DevComponents.DotNetBar.ButtonX btn_dangnhap;
-        private System.Windows.Forms.Button btn_trangchu;
+        private DevComponents.DotNetBar.ButtonX buttonX1;
         private DevComponents.DotNetBar.ButtonX buttonX5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel2;
+        private DevComponents.DotNetBar.LabelX labelX1;
         private DevComponents.DotNetBar.ButtonX buttonX2;
+
     }
 }
