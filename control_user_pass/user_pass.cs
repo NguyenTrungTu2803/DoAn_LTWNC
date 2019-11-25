@@ -107,6 +107,9 @@ namespace control_lich
                     //change.CloseConnection();
                     //if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     //else {
+                    DoAn_LTWNC.fromlogin.ActiveForm.Hide();
+                    fr_MainBanVe fr_MainBanVe = new fr_MainBanVe();
+                    fr_MainBanVe.ShowDialog();
                     
                 }
             }

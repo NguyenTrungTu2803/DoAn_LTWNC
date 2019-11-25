@@ -28,11 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.controlbanve1 = new BANVEXEKHACHH.controlbanve();
+            this.SuspendLayout();
+            // 
+            // controlbanve1
+            // 
+            this.controlbanve1.Location = new System.Drawing.Point(0, 3);
+            this.controlbanve1.Name = "controlbanve1";
+            this.controlbanve1.Size = new System.Drawing.Size(1203, 587);
+            this.controlbanve1.TabIndex = 0;
+            // 
+            // fr_MainBanVe
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1213, 590);
+            this.Controls.Add(this.controlbanve1);
+            this.Name = "fr_MainBanVe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fr_MainBanVe";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private BANVEXEKHACHH.controlbanve controlbanve1;
     }
 }

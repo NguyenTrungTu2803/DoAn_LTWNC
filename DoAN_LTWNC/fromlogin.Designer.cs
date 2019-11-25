@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.user_pass2 = new control_user_pass.user_pass();
+            this.user_pass2 = new control_lich.user_pass();
             this.SuspendLayout();
             // 
             // label1
@@ -61,7 +61,7 @@
             // 
             this.user_pass2.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.user_pass2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_pass2.Location = new System.Drawing.Point(3, 123);
+            this.user_pass2.Location = new System.Drawing.Point(10, 108);
             this.user_pass2.Margin = new System.Windows.Forms.Padding(5);
             this.user_pass2.Name = "user_pass2";
             this.user_pass2.Size = new System.Drawing.Size(365, 325);
@@ -84,6 +84,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
             this.Load += new System.EventHandler(this.Fromlogin_Load);
+            this.Click += new System.EventHandler(this.fromlogin_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,7 +94,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private control_lich.user_pass user_pass1;
-        private control_user_pass.user_pass user_pass2;
+        private control_lich.user_pass user_pass2;
 
     }
 }

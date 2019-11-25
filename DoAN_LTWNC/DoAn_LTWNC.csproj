@@ -81,11 +81,20 @@
     <Compile Include="fromlogin.Designer.cs">
       <DependentUpon>fromlogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fr_MainBanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fr_MainBanVe.Designer.cs">
+      <DependentUpon>fr_MainBanVe.cs</DependentUpon>
+    </Compile>
     <Compile Include="KTKN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fromlogin.resx">
       <DependentUpon>fromlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_MainBanVe.resx">
+      <DependentUpon>fr_MainBanVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

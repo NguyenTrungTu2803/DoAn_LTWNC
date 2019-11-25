@@ -634,7 +634,6 @@
             // btnItem_TKdontrakhach
             // 
             this.btnItem_TKdontrakhach.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItem_TKdontrakhach.Checked = true;
             this.btnItem_TKdontrakhach.ColorTable = DevComponents.DotNetBar.eButtonColor.MagentaWithBackground;
             this.btnItem_TKdontrakhach.FontBold = true;
             this.btnItem_TKdontrakhach.ForeColor = System.Drawing.Color.Black;
@@ -657,6 +656,7 @@
             // btnItem_qlHethong
             // 
             this.btnItem_qlHethong.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItem_qlHethong.Checked = true;
             this.btnItem_qlHethong.ColorTable = DevComponents.DotNetBar.eButtonColor.MagentaWithBackground;
             this.btnItem_qlHethong.FontBold = true;
             this.btnItem_qlHethong.ForeColor = System.Drawing.Color.Black;
@@ -701,7 +701,6 @@
             // btnItem_thongke
             // 
             this.btnItem_thongke.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItem_thongke.Checked = true;
             this.btnItem_thongke.ColorTable = DevComponents.DotNetBar.eButtonColor.MagentaWithBackground;
             this.btnItem_thongke.FontBold = true;
             this.btnItem_thongke.ForeColor = System.Drawing.Color.Black;

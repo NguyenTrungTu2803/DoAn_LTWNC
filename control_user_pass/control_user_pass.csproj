@@ -154,8 +154,6 @@
   <ItemGroup>
     <None Include="Resources\phone-icon2.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ADO\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
