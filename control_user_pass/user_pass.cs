@@ -107,16 +107,7 @@ namespace control_lich
                     //change.CloseConnection();
                     //if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     //else {
-                    fromlogin fr1 = new fromlogin();
-                        fromMain fr = new fromMain();
-                        fr1.Close();
-                        fr.Show();
-                         
-                        //fr.Close();
-                        //fr1.Close();
-                        //fr1.Enabled = false;
-                        
-                    //}
+                    
                 }
             }
             
