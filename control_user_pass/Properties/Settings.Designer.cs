@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace control_user_pass.Properties {
+namespace control_lich.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

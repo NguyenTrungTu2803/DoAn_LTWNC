@@ -1,4 +1,4 @@
-﻿namespace control_user_pass
+﻿namespace control_lich
 {
     partial class user_pass
     {
@@ -174,7 +174,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::control_user_pass.Properties.Resources.email;
+            this.pictureBox3.BackgroundImage = global::control_lich.Properties.Resources.email;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Location = new System.Drawing.Point(5, 137);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(5);
@@ -186,7 +186,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox2.BackgroundImage = global::control_user_pass.Properties.Resources.Lock_Icon_Main_Page;
+            this.pictureBox2.BackgroundImage = global::control_lich.Properties.Resources.Lock_Icon_Main_Page;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(5, 81);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
@@ -197,7 +197,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::control_user_pass.Properties.Resources.phone_icon;
+            this.pictureBox1.BackgroundImage = global::control_lich.Properties.Resources.phone_icon;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(5, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);

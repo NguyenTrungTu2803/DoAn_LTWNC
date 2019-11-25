@@ -13,7 +13,7 @@ using DoAn_LTWNC;
 using System.Threading;
 
 
-namespace control_user_pass
+namespace control_lich
 {
     public partial class user_pass: UserControl
     {
@@ -107,9 +107,11 @@ namespace control_user_pass
                     //change.CloseConnection();
                     //if (k == 0) MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     //else {
-                        fromMain fr = new fromMain(); 
+                    fromlogin fr1 = new fromlogin();
+                        fromMain fr = new fromMain();
+                        fr1.Close();
                         fr.Show();
-                        //fromlogin fr1 = new fromlogin(); fr1.Show();// fr1.Close();
+                         
                         //fr.Close();
                         //fr1.Close();
                         //fr1.Enabled = false;

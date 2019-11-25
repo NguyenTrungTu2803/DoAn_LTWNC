@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.user_pass1 = new control_user_pass.user_pass();
+            this.user_pass2 = new control_user_pass.user_pass();
             this.SuspendLayout();
             // 
             // label1
@@ -57,16 +57,15 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Đăng nhập tài khoản";
             // 
-            // user_pass1
+            // user_pass2
             // 
-            this.user_pass1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.user_pass1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_pass1.Location = new System.Drawing.Point(14, 74);
-            this.user_pass1.Margin = new System.Windows.Forms.Padding(5);
-            this.user_pass1.Name = "user_pass1";
-            this.user_pass1.Size = new System.Drawing.Size(365, 325);
-            this.user_pass1.TabIndex = 4;
-            this.user_pass1.Click += new System.EventHandler(this.user_pass1_Click);
+            this.user_pass2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.user_pass2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_pass2.Location = new System.Drawing.Point(3, 123);
+            this.user_pass2.Margin = new System.Windows.Forms.Padding(5);
+            this.user_pass2.Name = "user_pass2";
+            this.user_pass2.Size = new System.Drawing.Size(365, 325);
+            this.user_pass2.TabIndex = 4;
             // 
             // fromlogin
             // 
@@ -74,7 +73,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(382, 641);
-            this.Controls.Add(this.user_pass1);
+            this.Controls.Add(this.user_pass2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -93,7 +92,8 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private control_user_pass.user_pass user_pass1;
+        private control_lich.user_pass user_pass1;
+        private control_user_pass.user_pass user_pass2;
 
     }
 }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace control_user_pass
+namespace control_lich
 {
     public class ChangeConnec
     {

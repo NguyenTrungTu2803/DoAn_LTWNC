@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BCD98E59-07D9-4A99-A90F-03AB23DCCA13}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>control_user_pass</RootNamespace>
+    <RootNamespace>control_lich</RootNamespace>
     <AssemblyName>control_user_pass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
