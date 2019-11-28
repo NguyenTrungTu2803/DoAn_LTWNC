@@ -1,0 +1,6 @@
+F:\Github\DoAn_LTWNC\DAL\bin\Debug\DAL.dll.config
+F:\Github\DoAn_LTWNC\DAL\bin\Debug\DAL.dll
+F:\Github\DoAn_LTWNC\DAL\bin\Debug\DAL.pdb
+F:\Github\DoAn_LTWNC\DAL\obj\Debug\DAL.dll
+F:\Github\DoAn_LTWNC\DAL\obj\Debug\DAL.pdb
+F:\Github\DoAn_LTWNC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

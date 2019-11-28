@@ -16,7 +16,7 @@ namespace DoAn_LTWNC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fromlogin());
+           Application.Run(new MainNhanVien());
         }
     }
 }

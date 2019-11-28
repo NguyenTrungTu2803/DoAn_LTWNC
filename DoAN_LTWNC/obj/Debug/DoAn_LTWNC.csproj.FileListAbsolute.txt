@@ -8,6 +8,11 @@ F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.Properties.Resources.resour
 F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.csproj.GenerateResource.Cache
 F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.exe
 F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.pdb
-F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.fr_MainBanVe.resources
-F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\BANVEXEKHACHH.exe
-F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\BANVEXEKHACHH.pdb
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\MainFr.dll
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.MainBanVe.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.MainNhanVien.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.MainQuanLyXe.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\obj\Debug\DoAn_LTWNC.MainTKDTK.resources
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\DAL.dll
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\MainFr.pdb
+F:\Github\DoAn_LTWNC\DoAn_LTWNC\bin\Debug\DAL.pdb

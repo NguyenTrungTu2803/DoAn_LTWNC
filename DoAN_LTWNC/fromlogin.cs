@@ -33,9 +33,6 @@ namespace DoAn_LTWNC
 
         private void fromlogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            fr_MainBanVe fr_MainBanVe = new fr_MainBanVe();
-            fr_MainBanVe.Show();
         }
 
     }

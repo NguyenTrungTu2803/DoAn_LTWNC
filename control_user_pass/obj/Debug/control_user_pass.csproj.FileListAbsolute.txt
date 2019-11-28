@@ -8,7 +8,5 @@ F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.dll
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.pdb
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_lich.Properties.Resources.resources
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_lich.user_pass.resources
-F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\BANVEXEKHACHH.exe
-F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\DoAn_LTWNC.pdb
-F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\BANVEXEKHACHH.pdb
 F:\Github\DoAn_LTWNC\control_user_pass\obj\Debug\control_user_pass.csprojResolveAssemblyReference.cache
+F:\Github\DoAn_LTWNC\control_user_pass\bin\Debug\DoAn_LTWNC.pdb

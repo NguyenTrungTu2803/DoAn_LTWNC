@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqQLNV">
+  <DataContextMoniker Name="/LinqQLNVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6b3c999f-deab-49ad-b52a-f2afc550f303" absoluteBounds="5.375, 1.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LinqQLNVDataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b327a870-4b5c-4e17-a4f7-02aab76dfff8" absoluteBounds="5.3900000000000006, 2.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19c859c2-b6a4-40fb-95a8-005570f72b2f" absoluteBounds="1.5, 2.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LinqQLNVDataContext/PhanQuyen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b51bbf3f-abeb-47c2-8a76-f20fcebb3e51" absoluteBounds="1.5150000000000001, 3.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 3.52005126953125); (3.5 : 3.52005126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqQLNVDataContext/NguoiDung/NguoiDung_PhanQuyen" />
+      <nodes>
+        <classShapeMoniker Id="6b3c999f-deab-49ad-b52a-f2afc550f303" />
+        <classShapeMoniker Id="19c859c2-b6a4-40fb-95a8-005570f72b2f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

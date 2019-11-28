@@ -1,0 +1,14 @@
+F:\Github\DoAn_LTWNC\MainFr\bin\Debug\MainFr.dll
+F:\Github\DoAn_LTWNC\MainFr\bin\Debug\MainFr.pdb
+F:\Github\DoAn_LTWNC\MainFr\bin\Debug\NgenInstaller.dll
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.controlbanve.resources
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.controldoanhso.resources
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.controldontrakhach.resources
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.controlnhanvien.resources
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.Properties.Resources.resources
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.csproj.GenerateResource.Cache
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.dll
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.pdb
+F:\Github\DoAn_LTWNC\MainFr\bin\Debug\DAL.pdb
+F:\Github\DoAn_LTWNC\MainFr\bin\Debug\DAL.dll
+F:\Github\DoAn_LTWNC\MainFr\obj\Debug\MainFr.csprojResolveAssemblyReference.cache

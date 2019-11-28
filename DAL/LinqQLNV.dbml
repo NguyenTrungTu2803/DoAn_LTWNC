@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_NguoiDung" Class="LinqQLNVDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-L3TGD7A\TRUNGTU;Initial Catalog=QL_NguoiDung;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QL_NguoiDungConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.NguoiDung" Member="NguoiDungs">
+    <Type Name="NguoiDung">
+      <Column Name="SDT" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MatKhau" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Ho" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Ten" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ViTriCV" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CMND" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Association Name="NguoiDung_PhanQuyen" Member="PhanQuyen" ThisKey="SDT" OtherKey="SDT" Type="PhanQuyen" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhanQuyen" Member="PhanQuyens">
+    <Type Name="PhanQuyen">
+      <Column Name="SDT" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BanVe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TKDonTraKhach" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuanLyXe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuanLyHeThong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ThongKe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NguoiDung_PhanQuyen" Member="NguoiDung" ThisKey="SDT" OtherKey="SDT" Type="NguoiDung" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
