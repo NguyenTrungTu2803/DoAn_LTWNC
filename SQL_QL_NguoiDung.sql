@@ -19,7 +19,6 @@ Create Table NguoiDung
 	--Constraint pk_ND primary key(SDT, MatKhau, Email)
 )
 go
-insert Into NguoiDung values('sadasd','asdasd','asd','asd','asd','asd','asda','asd','asd')
 /*Create Table LoaiNguoiDung
 (
 	SDT NCHAR(11) not null,
@@ -36,14 +35,7 @@ Create Table PhanQuyen
 	QuanLyHeThong int,
 	ThongKe int
 )
-Go
-/*Alter table LoaiNguoiDung 
-Add Constraint pk_LoaiNguoiDung Primary Key(IDLoaiND)	*/
-
---Alter table PhanQuyen
---Add Constraint pk_PhanQuyen Primary Key(SDT)
---Go
-																																			   
+Go																																	   
 Alter table PhanQuyen
 Add constraint fk_PQ_ND foreign key(SDT) references NguoiDung(SDT)
 
